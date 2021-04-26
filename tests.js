@@ -14,14 +14,16 @@ describe('helloWorld', function() {
     });
 });
 
-describe('sayHello', function (){
-    it('should be a defined function', function(){
+describe('sayHello', function () {
+    it('should be a defined function', function () {
         expect(typeof sayHello).toBe('function');
     });
-    it("should return a string when called", function(){
+    it("should return a string when called", function () {
         expect(typeof sayHello()).toBe("string");
     });
-    it('should return the string "Hello, Jesse!" when executed', function() {
-        expect (sayHello("Jesse")).toBe("Hello, Jesse!");
-    });it("should ")
+    it('should return the string "Hello, Jesse!" when executed', function () {
+        expect(sayHello("Alex")).toBe("Hello, Jesse!");
+    });
+
+
 });
