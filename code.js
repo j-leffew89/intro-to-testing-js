@@ -2,9 +2,7 @@
 function helloWorld() {
     return "Hello, World!";
 }
-
+input = "Jesse"
 function sayHello(input){
-    if (input ==="Alex") {
-        return "Hello, Jesse!";
-    }
+    return 'Hello, ' + input + "!";
 }
