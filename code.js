@@ -2,7 +2,17 @@
 function helloWorld() {
     return "Hello, World!";
 }
-input = "Jesse"
-function sayHello(input){
-    return 'Hello, ' + input + "!";
+function sayHello(input) {
+    if (input === true) {
+        return "Hello World!"
+    } else if (input) {
+        return "Hello "+ input +"!";
+    }else {
+        return ("Hello World!")
+    }
 }
+
+
+// function isFive(){
+//     return 'boolean';
+// }
